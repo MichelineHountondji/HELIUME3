@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: rgb(32, 32, 32);
+    color: rgb(231, 227, 227);
+
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;    
+    color: white;    
+    z-index: 100;
+}
+.navbar active{
+    background-color: blanchedalmond;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none; 
+}
+
+.menu li {
+    padding-right: 100px;
+}
+
+section {
+    display: flex;
+    margin: 30px;
+    padding: 5px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+
+}
+
+.right {
+    width: 50%;
+}
+
+#router {
+    width: 100%;
+}
+
+.title {
+    font-size: 5rem;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #474DFF;
+
+}
+
+.foot {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    border-radius: 9px;
+}
+
+.footerleft {
+    text-align: center;
+    
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+
+button {
+    background-color: #474DFF;
+    color: rgb(231, 227, 227);
+    border-radius: 8px;
+    height: 40px;
+    width: 150px;
+}
+
+.footerright {
+    width: 67%;
+}
+
+.im {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 67%;
+}
+
+.im img {
+    width: 80px
+}
+@media screen and (max-width: 900px){
+    .title{
+        font-size: 2.5rem;
+    }
+    .subtitle{
+        font-size: 1.5rem;
+    }
+    #para{
+        font-size: 0.7rem;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .title{
+        font-size: 1.5rem;
+
+    }
+.subtitle{
+    font-size: 1rem;
+}
+#para{
+    font-size: 0.2rem;
+}
+
+}
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 2.5rem;
+
+    }
+.subtitle{
+    font-size: 0.7rem;
+}
+#para{
+    font-size: 0.8rem;
+}
+.footerright{
+    width: 50%;
+}
+
+}
